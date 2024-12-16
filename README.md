@@ -18,6 +18,8 @@ The project uses only HTML and CSS, making it beginner-friendly:
 
  
 
+ 
+
 <img width="869" alt="ootlkUF4RI" src="https://github.com/user-attachments/assets/cd224538-56bf-43dc-a9f1-38cccef16bcc" />
 
 
