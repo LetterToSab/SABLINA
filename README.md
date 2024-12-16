@@ -15,3 +15,6 @@ The project uses only HTML and CSS, making it beginner-friendly:
 
 	•	HTML: For structuring the blog layout and content.
 	•	CSS: To style the navigation bar, sections, and footer to give it a modern and professional appearance.
+
+
+<img width="954" alt="ootlkUF4RI" src="https://github.com/user-attachments/assets/d24560cb-eaea-444f-a1
