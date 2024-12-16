@@ -1,0 +1,152 @@
+@import url('/css/section/header.css');
+@import url('/css/section/hero.css');
+@import url('/css/section/about.css');
+@import url('/css/section/blog.css');
+@import url('/css/section/testimonials.css');
+@import url('/css/section/footer.css');
+@import url('/css/section/login.css');
+
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url(/fonts/fira-code-v22-latin-regular.woff2) format(woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url(/fonts/fira-code-v22-latin-600.woff2) format(woff2);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url(/fonts/fira-code-v22-latin-700.woff2) format(woff2);
+  font-weight: 700;
+}
+
+:root{
+  --clr-100:#ffffff;
+  --clr-200:#f0f0f0;
+  --clr-300:#a4a4a4;
+  --clr-400:#7b7b7b;
+  --clr-700:#f3e6d8;
+  --clr-800:#2c2c2c;
+  --clr-900:hsl(0, 0%, 0%);
+
+  --ff:'Fira Code';
+
+  --fw-400:400;
+  --fw-600:600;
+  --fw-700:700;
+}
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family:var(--ff);
+  background-color: var(--clr-200);
+}
+
+.wrap{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: var(--clr-100);
+  padding-block: 2em 0;
+  height: 100vh;
+  overflow: auto;
+}
+
+/* styling the scroll to to btn */
+.gotopbtn{
+  background-color: var(--clr-700);
+  position: fixed;
+  width: 2em;
+  height: 2em;
+  bottom: 2em;
+  right: 2.8em;
+  text-decoration: none;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 2em;
+  color: var(--clr-900);
+  display: none;
+}
+
+
+/* @media (max-width: 576px){
+  .mobile-hide{
+    display: none;
+  }
+
+  .desktop-hide{
+    display: flex;
+    align-items: center;
+  }
+
+  .primary-nav{
+    position: fixed;
+    z-index: 1000;
+    inset: 0 0 0 40%;
+    flex-direction: column;
+    margin-bottom: 1em;
+    padding: 8em 2em;
+    background: hsl(0 0% 0% /.02);
+    backdrop-filter: blur(3rem);
+    transform: translateX(100%);
+    transition: transform 300ms ease-out;
+  }
+
+  .hide-mobile{
+    width: 2rem;
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .open{
+    transform: translateX(0%);
+  }
+
+  .hamburger-menu{
+    display: block;
+    position: absolute;
+    z-index: 999;
+    background: url(/assets/Images/icon-hamburger.svg);
+    background-repeat: no-repeat;
+    width: 2rem;
+    border: 0;
+    aspect-ratio: 1;
+    top: 2rem;
+    right: 2rem;
+  }
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
