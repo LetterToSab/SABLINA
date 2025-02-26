@@ -1,10 +1,10 @@
-@import url('/css/section/header.css');
-@import url('/css/section/hero.css');
-@import url('/css/section/about.css');
-@import url('/css/section/blog.css');
-@import url('/css/section/testimonials.css');
-@import url('/css/section/footer.css');
-@import url('/css/section/login.css');
+@import url('css/section/header.css');
+@import url('css/section/hero.css');
+@import url('css/section/about.css');
+@import url('css/section/blog.css');
+@import url('css/section/testimonials.css');
+@import url('css/section/footer.css');
+@import url('css/section/login.css');
 
 
 @font-face {
